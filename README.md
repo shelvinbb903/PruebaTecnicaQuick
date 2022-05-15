@@ -31,6 +31,8 @@ source env/Scripts/activate
 
 ## Notas Adicionales
 
+- Después de ejecutar el servicio /users/login/ el token jwt generado (propiedad token del JSON como respuesta) se debe agregar como cabecera o header en las conexiones a los demás servicios api rest, el cual tiene como clave Authorization y su valor es el token. Ejemplo: Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InNoZWx2aW5iYkBnbWFpbC5jb20iLCJleHAiOjE2NTI1OTk0OTB9._U65DUEN4vRSN7H6WvNrOPIgaUASJ9HguDT-qgeq6ZY
+
 - Dentro del proyecto se agregó el archivo como plantilla para la API rest de cargue masivo de clientes con un archivo csv.
 
 - Además se agregó el archivo postman_collections con todas las API rest desarrolladas.
